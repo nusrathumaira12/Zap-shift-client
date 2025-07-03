@@ -1,0 +1,30 @@
+.review-swiper .swiper-slide {
+    opacity: 0.2;
+    transform: scale(0.8);
+    transition: all 0.3s ease;
+  }
+  
+  .review-swiper .swiper-slide-active {
+    opacity: 1;
+    transform: scale(1.1);
+    background-color: #ffffff;
+    border-radius: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .custom-pagination .swiper-pagination-bullet {
+    background: #999;
+    opacity: 0.6;
+    width: 10px;
+    height: 10px;
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-pagination .swiper-pagination-bullet-active {
+    background: #333;
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  
